@@ -2,6 +2,7 @@ package fhj.swengb.assignments.functional.rladstaetter
 
 /**
   * This is the first assignment for swengb 2015.
+  *
   */
 case class FunctionalAssignment(lowerBound: Int = 1,
                                 upperBound: Int = 1000,
