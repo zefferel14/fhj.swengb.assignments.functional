@@ -24,7 +24,9 @@ case class FunctionalAssignment(lowerBound: Int = 1,
   /**
    * provide the sum of all elements defined in xs
    */
-  val sumXs = xs.sum
+  val sumXs = {
+    xs.sum
+  }
 
   /**
    * This sequence contains a list with the following elements:
